@@ -4,7 +4,7 @@ local current_dir='%{$terminfo[bold]$fg[blue]%}%~%{$reset_color%}'
 local git_branch='$(git_prompt_info)'
 
 PROMPT="${user_host}:${current_dir} ${git_branch}
-%{$fg[yellow]%}%! %B=> %b"
+%{$fg[yellow]%}%B%! => %b"
 RPROMPT="${return_code}"
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[green]%}git:("
