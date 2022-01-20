@@ -1,5 +1,12 @@
 # my-zsh
 
+## ~/.my-zsh/
+
+```zsh
+cd ~
+git clone --recursive git@github.com:ZhenghengLi/my-zsh.git .my-zsh
+```
+
 ## ~/.zshrc
 
 ```zsh
